@@ -3,11 +3,11 @@
 }
 .cabecalho-geral
 {
-    background-color: aqua;
+    background-color: white;
 }
 .titulo-cabecalho
 { 
-    color: hotpink; 
+    color: rgb(0, 0, 0); 
     font-size: 60px; 
     font-family: cursive; 
     display: flex; 
@@ -20,29 +20,55 @@
 }
 .tit-1-secao
 {
-    color: blueviolet;
+    color: rgb(0, 0, 0);
     font-size: 40px; 
     font-family: fantasy;
 }
 .tit-2-secao
 {
-    color: coral; 
+    color: rgb(0, 0, 0); 
     font-size: 40px; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
      Geneva, Verdana, sans-serif;
 }
 .p-tit-1
 { 
-    font-size: 20px; color: green;
+    font-size: 20px; color: rgb(255, 255, 255);
 }
 .p-tit-2
 { 
     font-size: 20px; 
-    color: blue; 
+    color: rgb(255, 255, 255); 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
      'Lucida Sans', Arial, sans-serif;
 }
 .item-1
 { 
     color: darkgreen;
+}
+.item-2
+{
+    color: rgb(255, 0, 0);
+}
+.item-3
+{
+    color: rgb(0, 38, 255);
+}
+.item-4
+{
+    color: rgb(228, 253, 1);
+}
+.item-5
+{
+    color: rgb(153, 70, 2);
+}
+.secao
+{
+    background-color: rgb(70, 70, 70);
+}
+.rodape
+{
+    background-color: black;
+    padding: 10px;
+    color: white;
 }
