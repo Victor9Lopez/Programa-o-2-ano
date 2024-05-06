@@ -1,74 +1,66 @@
-*{
-    margin: 10px;
+:root {
+    --cor-de-fundo-botao: gold;
+    --cor-fonte: red;
+    --cor-borda: black;
+
 }
-.cabecalho-geral
-{
-    background-color: white;
+
+.titulo1 {
+    font-family: tac one;
+    color: var(--cor-fonte);
+    font-size: 10em;
+    text-align: center;
+    padding: 50px 50px;
 }
-.titulo-cabecalho
-{ 
-    color: rgb(0, 0, 0); 
-    font-size: 60px; 
-    font-family: cursive; 
-    display: flex; 
+
+body {
+    background-image: url(energia\ escura.png);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+}
+
+
+.materia-escura {
+    list-style: none;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    display: block;
     justify-content: space-around;
 }
-.lista-secao
-{
-    padding: 10px;
-    font-size: 20px;
+
+.mario img {
+    width: 2.2em;
 }
-.tit-1-secao
-{
-    color: rgb(0, 0, 0);
-    font-size: 40px; 
-    font-family: fantasy;
+
+.mario {
+    text-align: center;
 }
-.tit-2-secao
-{
-    color: rgb(0, 0, 0); 
-    font-size: 40px; 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
-     Geneva, Verdana, sans-serif;
+
+.yoshi img {
+    width: 2em;
 }
-.p-tit-1
-{ 
-    font-size: 20px; color: rgb(255, 255, 255);
+
+.bowser img {
+    width: 3em;
 }
-.p-tit-2
-{ 
-    font-size: 20px; 
-    color: rgb(255, 255, 255); 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-     'Lucida Sans', Arial, sans-serif;
+
+.peach img {
+    width: 2em;
 }
-.item-1
-{ 
-    color: darkgreen;
+
+.botao {
+    text-decoration: none;
+    color: red;
 }
-.item-2
-{
-    color: rgb(255, 0, 0);
-}
-.item-3
-{
-    color: rgb(0, 38, 255);
-}
-.item-4
-{
-    color: rgb(228, 253, 1);
-}
-.item-5
-{
-    color: rgb(153, 70, 2);
-}
-.secao
-{
-    background-color: rgb(70, 70, 70);
-}
-.rodape
-{
-    background-color: black;
-    padding: 10px;
-    color: white;
+
+.botao:hover {
+    color: yellow;
 }
